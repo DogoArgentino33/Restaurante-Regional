@@ -27,6 +27,7 @@ DEBUG = config('DEBUG', default=True, cast=bool)
 
 ALLOWED_HOSTS = []
 
+AUTH_USER_MODEL = 'gestion.Persona'
 
 # Application definition
 
@@ -43,7 +44,7 @@ INSTALLED_APPS = [
     'gestion',
     'comunicacion',
     'reportes',
-    'interfaz',
+    'catalogo',
 ]
 
 MIDDLEWARE = [
