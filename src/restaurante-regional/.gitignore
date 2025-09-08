@@ -1,0 +1,21 @@
+# .gitignore
+
+# Entorno virtual
+env/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+
+# Archivos de base de datos local
+*.sqlite3
+
+# Variables de entorno
+.env
+
+# Archivos temporales
+*.log
+
+# Archivos de editores
+.vscode/
+.idea/
